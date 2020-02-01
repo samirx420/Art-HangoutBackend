@@ -123,30 +123,30 @@ const signUp = async (req, res, next) => {
         res.status(400).Json({ status: 400, message: error });
     }
 }
-// /**
-//  * GET ALL User
-//  */
-// router.get('/', (req, res) => fn._get_all(req, res, User, '[address]'))
+/**
+ * GET ALL User
+ */
+router.get('/', (req, res) => fn._get_all(req, res, User, '[address]'))
 
-// /**
-//  * GET BY ID
-//  */
-// router.get('/:id', async (req, res) => fn._get_by_id(req, res, User))
+/**
+ * GET BY ID
+ */
+router.get('/:id', async (req, res) => fn._get_by_id(req, res, User))
 
-// /**
-//  * CREATE User
-//  */
-// router.post('/', async (req, res) => fn._create(req, res, User))
+/**
+ * CREATE User
+ */
+router.post('/', async (req, res) => fn._create(req, res, User))
 
-// /**
-//  * UPDATE User
-//  */
-// router.put('/:id', async (req, res) => fn._update(req, res, User, ['username', 'password', 'first_name', 'last_name', 'avatar_path', 'contact_no', 'address_id']))
+/**
+ * UPDATE User
+ */
+router.put('/:id', async (req, res) => fn._update(req, res, User, ['username', 'password', 'first_name', 'last_name', 'avatar_path', 'contact_no', 'address_id']))
 
-// /**
-//  * DELETE User
-//  */
-// router.delete('/:id', async (req, res) => fn._delete(req, res, User))
+/**
+ * DELETE User
+ */
+router.delete('/:id', async (req, res) => fn._delete(req, res, User))
 
 // EXPORTS
 router.post('/login', login);
