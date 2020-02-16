@@ -1,0 +1,116 @@
+{
+  "notices": [
+    {
+      "id": 1,
+      "title": "Tomorrow is holiday.",
+      "description": "Each video lesson teaches a new concept and includes practice examples for you to try out yourself.",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "Tomorrow is holiday.",
+      "description": "Each video lesson teaches a new concept and includes practice examples for you to try out yourself.",
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "title": "Tomorrow is holiday.",
+      "description": "Each video lesson teaches a new concept and includes practice examples for you to try out yourself.",
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "title": "Tomorrow is holiday.",
+      "description": "Each video lesson teaches a new concept and includes practice examples for you to try out yourself.",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "title": "Tomorrow is holiday.",
+      "description": "Each video lesson teaches a new concept and includes practice examples for you to try out yourself.",
+      "userId": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "noticeId": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "body": "some qweqwe",
+      "noticeId": 1,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "body": "some asdad",
+      "noticeId": 1,
+      "userId": 1
+    },
+    {
+      "id": 4,
+      "body": "some asd",
+      "noticeId": 1,
+      "userId": 1
+    },
+    {
+      "body": "sdf",
+      "noticeId": 1,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "body": "dfdf",
+      "noticeId": 1,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "body": "sdfsdfsd",
+      "noticeId": 1,
+      "userId": 1,
+      "id": 7
+    },
+    {
+      "body": "sdfgsdfg",
+      "noticeId": 1,
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "body": "sdsd",
+      "noticeId": 1,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "body": "kl",
+      "noticeId": "1",
+      "id": 10
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "text": "Consider using Redux",
+      "completed": true
+    },
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "puzansakya",
+      "first_name": "puzan",
+      "last_name": "sakya"
+    }
+  ]
+}

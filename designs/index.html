@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+        rel="stylesheet">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            font-size: 16px;
+            font-weight: normal;
+            font-family: Roboto, Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 960px;
+            height: 100%;
+            margin: 0 auto;
+            padding-top: 60px;
+        }
+
+        .btn {
+            padding: 8px 12px;
+            outline: none;
+            border: 1px solid #8e8e8e;
+            color: #8e8e8e;
+            font-size: 14px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        .btn__mine-only {
+            margin-left: 20px;
+            ;
+        }
+
+        .btn__new-notice {
+            background: #0D868F;
+            color: white;
+        }
+
+        .fx {
+            display: flex;
+        }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .main-panel {
+            padding: 40px 24px;
+            height: 100%;
+            margin-top: 30px;
+        }
+
+        .w-321 {
+            width: 321px;
+        }
+
+        .font-8E8E8E {
+            color: #8E8E8E;
+        }
+
+        .h-48vh {
+            height: 40vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="justify-between flex items-center px-6">
+            <div class="flex items-center">
+                <h1 class="text-4xl">Notice board</h1>
+                <button class="border border-gray-500 rounded rounded-full py-2 px-5 hover:bg-gray-100 ml-4">Mine
+                    only</button>
+            </div>
+            <button
+                class="border border-green-500 rounded rounded-full py-2 text-white bg-green-800 px-5 hover:bg-green-700">New
+                Notice</button>
+        </div>
+
+        <div class="flex p-5">
+
+            <div class="w-321 border-l border-r flex-shrink-0">
+
+                <div class="p-6 hover:bg-green-100">
+                    <h2 class="text-sm font-bold mb-1">Coda 101</h2>
+                    <p class="text-sm leading-none leading-normal font-8E8E8E">Each video lesson teaches a new concept
+                        and includes practice examples for you to try out
+                        yourself.</p>
+
+                    <div class="flex mt-2">
+                        <span class="text-xs text-green-500">Dec 10 | </span>
+                        <svg class="w-4 ml-2"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                fill="#C6C6C6" />
+                        </svg>
+
+                        <svg class="w-4 ml-2"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                fill="#C6C6C6" />
+                        </svg>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="p-6 hover:bg-green-100">
+                    <h2 class="text-sm font-bold mb-1">Coda 101</h2>
+                    <p class="text-sm leading-none leading-normal font-8E8E8E">Each video lesson teaches a new concept
+                        and includes practice examples for you to try out
+                        yourself.</p>
+
+                    <div class="flex mt-2">
+                        <span class="text-xs text-green-500">Dec 10 | </span>
+                        <svg class="w-4 ml-2"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                fill="#C6C6C6" />
+                        </svg>
+
+                        <svg class="w-4 ml-2"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                fill="#C6C6C6" />
+                        </svg>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="p-6 hover:bg-green-100">
+                    <h2 class="text-sm font-bold mb-1">Coda 101</h2>
+                    <p class="text-sm leading-none leading-normal font-8E8E8E">Each video lesson teaches a new concept
+                        and includes practice examples for you to try out
+                        yourself.</p>
+
+                    <div class="flex mt-2">
+                        <span class="text-xs text-green-500">Dec 10 | </span>
+                        <svg class="w-4 ml-2"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                fill="#C6C6C6" />
+                        </svg>
+
+                        <svg class="w-4 ml-2"
+                            viewBox="0 0 12 12"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                fill="#C6C6C6" />
+                        </svg>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+            <div class="p-6 flex-1">
+
+                <h1 class="text-xl font-semibold mb-3">Coda 101</h1>
+                <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and includes practice
+                    examples for you to try out
+                    yourself.</p>
+
+
+
+                <div class="flex">
+
+                    <div class="rounded-full overflow-hidden w-8 h-8 mr-2">
+                        <img class="w-full h-full"
+                            src="http://unsplash.it/40/40?gravity=center"
+                            alt="" />
+                    </div>
+
+                    <div>
+                        <span class="text-sm text-gray-900">Puzan Sakya</span>
+                        <span class="text-xs text-green-500">Dec 10</span>
+                    </div>
+                </div>
+
+
+
+                <div class="mt-4 ">
+                    <h1 class="text-lg mb-4">Comments</h1>
+
+
+                    <div class="relative">
+
+                        <div class="h-48vh overflow-auto">
+
+
+                            <div class="flex mt-5">
+
+                                <div class="rounded-full overflow-hidden w-8 h-8 mr-2 flex-shrink-0">
+                                    <img class="w-full h-full"
+                                        src="http://unsplash.it/40/40?gravity=center"
+                                        alt=""/>
+                                </div>
+
+                                <div>
+                                    <p class="text-sm text-gray-900">Puzan Sakya</p>
+                                    <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and
+                                        includes
+                                        practice examples for you to try out
+                                        yourself.</p>
+                                    <div class="flex mt-2">
+                                        <span class="text-xs text-green-500">Dec 10 | </span>
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="flex mt-5">
+
+                                <div class="rounded-full overflow-hidden w-8 h-8 mr-2 flex-shrink-0">
+                                    <img class="w-full h-full"
+                                        src="http://unsplash.it/40/40?gravity=center"
+                                        alt=""/>
+                                </div>
+
+                                <div>
+                                    <p class="text-sm text-gray-900">Puzan Sakya</p>
+                                    <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and
+                                        includes
+                                        practice examples for you to try out
+                                        yourself.</p>
+                                    <div class="flex mt-2">
+                                        <span class="text-xs text-green-500">Dec 10 | </span>
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="flex mt-5">
+
+                                <div class="rounded-full overflow-hidden w-8 h-8 mr-2 flex-shrink-0">
+                                    <img class="w-full h-full"
+                                        src="http://unsplash.it/40/40?gravity=center"
+                                        alt=""/>
+                                </div>
+
+                                <div>
+                                    <p class="text-sm text-gray-900">Puzan Sakya</p>
+                                    <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and
+                                        includes
+                                        practice examples for you to try out
+                                        yourself.</p>
+                                    <div class="flex mt-2">
+                                        <span class="text-xs text-green-500">Dec 10 | </span>
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="flex mt-5">
+
+                                <div class="rounded-full overflow-hidden w-8 h-8 mr-2 flex-shrink-0">
+                                    <img class="w-full h-full"
+                                        src="http://unsplash.it/40/40?gravity=center"
+                                        alt=""/>
+                                </div>
+
+                                <div>
+                                    <p class="text-sm text-gray-900">Puzan Sakya</p>
+                                    <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and
+                                        includes
+                                        practice examples for you to try out
+                                        yourself.</p>
+                                    <div class="flex mt-2">
+                                        <span class="text-xs text-green-500">Dec 10 | </span>
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="flex mt-5">
+
+                                <div class="rounded-full overflow-hidden w-8 h-8 mr-2 flex-shrink-0">
+                                    <img class="w-full h-full"
+                                        src="http://unsplash.it/40/40?gravity=center"
+                                        alt=""/>
+                                </div>
+
+                                <div>
+                                    <p class="text-sm text-gray-900">Puzan Sakya</p>
+                                    <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and
+                                        includes
+                                        practice examples for you to try out
+                                        yourself.</p>
+                                    <div class="flex mt-2">
+                                        <span class="text-xs text-green-500">Dec 10 | </span>
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="flex mt-5">
+
+                                <div class="rounded-full overflow-hidden w-8 h-8 mr-2 flex-shrink-0">
+                                    <img class="w-full h-full"
+                                        src="http://unsplash.it/40/40?gravity=center"
+                                        alt=""/>
+                                </div>
+
+                                <div>
+                                    <p class="text-sm text-gray-900">Puzan Sakya</p>
+                                    <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and
+                                        includes
+                                        practice examples for you to try out
+                                        yourself.</p>
+                                    <div class="flex mt-2">
+                                        <span class="text-xs text-green-500">Dec 10 | </span>
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+
+                            <div class="flex mt-5">
+
+                                <div class="rounded-full overflow-hidden w-8 h-8 mr-2 flex-shrink-0">
+                                    <img class="w-full h-full"
+                                        src="http://unsplash.it/40/40?gravity=center"
+                                        alt=""/>
+                                </div>
+
+                                <div>
+                                    <p class="text-sm text-gray-900">Puzan Sakya</p>
+                                    <p class="text-sm mb-3 font-8E8E8E">Each video lesson teaches a new concept and
+                                        includes
+                                        practice examples for you to try out
+                                        yourself.</p>
+                                    <div class="flex mt-2">
+                                        <span class="text-xs text-green-500">Dec 10 | </span>
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M1.5 8.625V10.5H3.375L8.905 4.97L7.03 3.095L1.5 8.625ZM10.355 3.52C10.55 3.325 10.55 3.01 10.355 2.815L9.185 1.645C8.99 1.45 8.675 1.45 8.48 1.645L7.565 2.56L9.44 4.435L10.355 3.52Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                        <svg class="w-4 ml-2"
+                                            viewBox="0 0 12 12"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M3 9.5C3 10.05 3.45 10.5 4 10.5H8C8.55 10.5 9 10.05 9 9.5V3.5H3V9.5ZM9.5 2H7.75L7.25 1.5H4.75L4.25 2H2.5V3H9.5V2Z"
+                                                fill="#C6C6C6" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+                        <div class="w-full border border-gray-500 h-8 flex justify-between p-2 items-center rounded">
+                            <input class="w-full h-full"
+                                type="text" />
+                            <button><svg width="12"
+                                    height="12"
+                                    viewBox="0 0 12 12"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.005 10.5L11.5 6L1.005 1.5L1 5L8.5 6L1 7L1.005 10.5Z"
+                                        fill="#3DB3CC" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
